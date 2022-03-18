@@ -12,10 +12,3 @@ program CalculatorTheSum
 
 end program CalculatorTheSum
 
-
-
-
-
-
-
-
