@@ -1,11 +1,13 @@
-# Fortran-files
+# Fortran-Files
 
 These fortran codes are created when I was taking BIL_112E class at spring semester 2022.
 
 Question Quiz-1
 ------------------------------------------------------------
--Write some lines of code to calculate the sum
--1*2+2*3+3*4+ ... + 9*10
+-Write some lines of code to calculate the sum.
+
+-1^2+2^3+3^4+ ... + 9^10
+
 -Use a single loop!
 
 ------------------------------------------------------------
