@@ -13,7 +13,7 @@ program epidemic_disease
      S(1) = 0.99
      I(1) = 0.01
      R(1) = 0.00
-     do t = 1, 50
+     do t = 1, 50 ! We must train model 50 day.
           S(t+1) = S(t)-a*I(t)*S(t)
           I(t+1) = I(t)+a*I(t)*S(t)-b*I(t)
           R(t+1) = R(t)+b*I(t)  
@@ -23,9 +23,8 @@ program epidemic_disease
      print*, "When t= 0th day  ","S=",S(1),"I=",I(1),"  R=",R(1),"Total=",S(1)+I(1)+R(1)
      print*, "      S     ", "    I    ", "     R", "     which day   "
      print*, "   -------  ", " ------  ", "  ------", "  ----------"
-     do t = 1, 50
-     write(*, 1) S(t+1), I(t+1), R(t+1), H(t)
-     1 format(4f10.4)
+          do t = 1, 50
+          write(*, 1) S(t+1), I(t+1), R(t+1), H(t)
+          1 format(4f10.4)
      end do     
 end program epidemic_disease
-
