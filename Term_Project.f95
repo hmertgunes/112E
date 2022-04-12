@@ -30,7 +30,7 @@ program project
 
      ! avematHMG will be the average of the ith row and jth column element of matHMG and it's nearest neighbors
      ! avemathHMG ith row and jth column = (the ith row and jth column element itself + nearest neighbors) / number of total elements
-     ! I had to seperate filling commands into 2 loop blocks because the number of neighbors may change according to element's location
+     ! I had to seperate filling commands into 2 loop blocks so that the if statements do not overlap
 
      ! Block 1: Filling side elements (without corners) of the matrix avematHMG
      do i = 1, NrowHMG
