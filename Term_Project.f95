@@ -1,5 +1,3 @@
-! 090210128 Hasan Mert Güneş
-
 ! This project includes a simple version of "mean field approximation" that can be used when modeling physical systems.
 ! Created a matrix called avematHMG, which consists of the average of matHMG matrix's each elements and it's nearest neighbors.
 ! Then, calculated the average of the whole elements of the matrix avematHMG and set it to averageHMG.
